@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "WetherViewController.h"
+#import "MKGCD.h"
 
 @interface ViewController : UIViewController
 

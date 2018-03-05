@@ -18,20 +18,18 @@ extern NSString  * name;
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    
+    
 }
 
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    
-    
+    MKGCD * gcd = [MKGCD initInstance];
+    [gcd semaphoreLock];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
