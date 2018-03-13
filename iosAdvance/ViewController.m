@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "User.h"
+#import "BlockTest.h"
 @interface ViewController ()
 
 @end
@@ -21,15 +22,12 @@ extern NSString  * name;
     
     [super viewDidLoad];
     
-    
-    
 }
 
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-    MKGCD * gcd = [MKGCD initInstance];
-    [gcd semaphoreLock];
+
+    [[BlockTest initInstance] asCFuncPrama];
 }
 
 @end

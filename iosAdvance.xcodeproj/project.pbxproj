@@ -11,6 +11,9 @@
 		C41034662048F57D00B9CD8B /* Wether.m in Sources */ = {isa = PBXBuildFile; fileRef = C41034652048F57D00B9CD8B /* Wether.m */; };
 		C41034692048F5A100B9CD8B /* WetherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C41034682048F5A100B9CD8B /* WetherViewModel.m */; };
 		C410346C2048F5C000B9CD8B /* WetherView.m in Sources */ = {isa = PBXBuildFile; fileRef = C410346B2048F5C000B9CD8B /* WetherView.m */; };
+		C415F5DB2057BAF9008FD16A /* NetWorkListener.m in Sources */ = {isa = PBXBuildFile; fileRef = C415F5DA2057BAF9008FD16A /* NetWorkListener.m */; };
+		C415F5DE2057BB37008FD16A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C415F5DD2057BB36008FD16A /* Reachability.m */; };
+		C415F5E22057DE0F008FD16A /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C415F5E12057DE0F008FD16A /* BlockTest.m */; };
 		C431D49C20453ED1000FC8E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D49B20453ED1000FC8E1 /* AppDelegate.m */; };
 		C431D49F20453ED1000FC8E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D49E20453ED1000FC8E1 /* ViewController.m */; };
 		C431D4A220453ED1000FC8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C431D4A020453ED1000FC8E1 /* Main.storyboard */; };
@@ -18,11 +21,14 @@
 		C431D4A720453ED2000FC8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C431D4A520453ED2000FC8E1 /* LaunchScreen.storyboard */; };
 		C431D4AA20453ED3000FC8E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D4A920453ED3000FC8E1 /* main.m */; };
 		C431D4B320453FDE000FC8E1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C431D4B220453FDE000FC8E1 /* User.m */; };
+		C43B4084204FB383006B1A14 /* Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B4083204FB383006B1A14 /* Calculations.m */; };
 		C43C35512047A1E400A4D3DC /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = C43C35502047A1E400A4D3DC /* Operation.m */; };
 		C43C35542047A28100A4D3DC /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C43C35532047A28100A4D3DC /* OperationAdd.m */; };
 		C43C35572047A2F700A4D3DC /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = C43C35562047A2F700A4D3DC /* OperationSub.m */; };
 		C43C355A2047A33900A4D3DC /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = C43C35592047A33900A4D3DC /* OperationMul.m */; };
 		C43C355D2047A3A700A4D3DC /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C43C355C2047A3A700A4D3DC /* OperationFactory.m */; };
+		C4C899D2204D408700099BE3 /* MKGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C899D1204D408700099BE3 /* MKGCD.m */; };
+		C4C899D6204D40D500099BE3 /* MKNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C899D5204D40D500099BE3 /* MKNSOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		C41034682048F5A100B9CD8B /* WetherViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetherViewModel.m; sourceTree = "<group>"; };
 		C410346A2048F5C000B9CD8B /* WetherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WetherView.h; sourceTree = "<group>"; };
 		C410346B2048F5C000B9CD8B /* WetherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetherView.m; sourceTree = "<group>"; };
+		C415F5D92057BAF9008FD16A /* NetWorkListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkListener.h; sourceTree = "<group>"; };
+		C415F5DA2057BAF9008FD16A /* NetWorkListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkListener.m; sourceTree = "<group>"; };
+		C415F5DC2057BB36008FD16A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C415F5DD2057BB36008FD16A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C415F5E02057DE0F008FD16A /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		C415F5E12057DE0F008FD16A /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		C431D49720453ED1000FC8E1 /* iosAdvance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAdvance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C431D49A20453ED1000FC8E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C431D49B20453ED1000FC8E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		C431D4B020453F64000FC8E1 /* MKSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSingleton.h; sourceTree = "<group>"; };
 		C431D4B120453FDE000FC8E1 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		C431D4B220453FDE000FC8E1 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C43B4082204FB383006B1A14 /* Calculations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculations.h; sourceTree = "<group>"; };
+		C43B4083204FB383006B1A14 /* Calculations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculations.m; sourceTree = "<group>"; };
 		C43C354F2047A1E400A4D3DC /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
 		C43C35502047A1E400A4D3DC /* Operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		C43C35522047A28100A4D3DC /* OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
@@ -57,6 +71,10 @@
 		C43C35592047A33900A4D3DC /* OperationMul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationMul.m; sourceTree = "<group>"; };
 		C43C355B2047A3A700A4D3DC /* OperationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
 		C43C355C2047A3A700A4D3DC /* OperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		C4C899D0204D408700099BE3 /* MKGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKGCD.h; sourceTree = "<group>"; };
+		C4C899D1204D408700099BE3 /* MKGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKGCD.m; sourceTree = "<group>"; };
+		C4C899D4204D40D500099BE3 /* MKNSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNSOperation.h; sourceTree = "<group>"; };
+		C4C899D5204D40D500099BE3 /* MKNSOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKNSOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,26 @@
 			path = NSThread;
 			sourceTree = "<group>";
 		};
+		C415F5D82057BAA7008FD16A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C415F5DC2057BB36008FD16A /* Reachability.h */,
+				C415F5DD2057BB36008FD16A /* Reachability.m */,
+				C415F5D92057BAF9008FD16A /* NetWorkListener.h */,
+				C415F5DA2057BAF9008FD16A /* NetWorkListener.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C415F5DF2057DDEC008FD16A /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				C415F5E02057DE0F008FD16A /* BlockTest.h */,
+				C415F5E12057DE0F008FD16A /* BlockTest.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		C431D48E20453ED1000FC8E1 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +163,13 @@
 				C431D49B20453ED1000FC8E1 /* AppDelegate.m */,
 				C431D49D20453ED1000FC8E1 /* ViewController.h */,
 				C431D49E20453ED1000FC8E1 /* ViewController.m */,
+				C415F5DF2057DDEC008FD16A /* Block */,
+				C415F5D82057BAA7008FD16A /* Reachability */,
+				C4C899D3204D409E00099BE3 /* NSOperation */,
+				C4C899CF204D408700099BE3 /* GCD */,
 				C410346D20492BF500B9CD8B /* Singleton */,
 				C43C354E2047A1B000A4D3DC /* Factory设计模式 */,
+				C43B4081204FB0D6006B1A14 /* 常见算法 */,
 				C410346E204941AA00B9CD8B /* NSThread */,
 				C41034602048F19800B9CD8B /* MVVM */,
 				C431D4A020453ED1000FC8E1 /* Main.storyboard */,
@@ -136,6 +179,15 @@
 				C431D4A920453ED3000FC8E1 /* main.m */,
 			);
 			path = iosAdvance;
+			sourceTree = "<group>";
+		};
+		C43B4081204FB0D6006B1A14 /* 常见算法 */ = {
+			isa = PBXGroup;
+			children = (
+				C43B4082204FB383006B1A14 /* Calculations.h */,
+				C43B4083204FB383006B1A14 /* Calculations.m */,
+			);
+			path = "常见算法";
 			sourceTree = "<group>";
 		};
 		C43C354E2047A1B000A4D3DC /* Factory设计模式 */ = {
@@ -153,6 +205,24 @@
 				C43C355C2047A3A700A4D3DC /* OperationFactory.m */,
 			);
 			path = "Factory设计模式";
+			sourceTree = "<group>";
+		};
+		C4C899CF204D408700099BE3 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				C4C899D0204D408700099BE3 /* MKGCD.h */,
+				C4C899D1204D408700099BE3 /* MKGCD.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		C4C899D3204D409E00099BE3 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				C4C899D4204D40D500099BE3 /* MKNSOperation.h */,
+				C4C899D5204D40D500099BE3 /* MKNSOperation.m */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C43C355A2047A33900A4D3DC /* OperationMul.m in Sources */,
+				C415F5DB2057BAF9008FD16A /* NetWorkListener.m in Sources */,
+				C4C899D6204D40D500099BE3 /* MKNSOperation.m in Sources */,
 				C41034632048F1FC00B9CD8B /* WetherViewController.m in Sources */,
 				C43C35572047A2F700A4D3DC /* OperationSub.m in Sources */,
 				C41034692048F5A100B9CD8B /* WetherViewModel.m in Sources */,
@@ -236,8 +308,12 @@
 				C43C355D2047A3A700A4D3DC /* OperationFactory.m in Sources */,
 				C431D4AA20453ED3000FC8E1 /* main.m in Sources */,
 				C431D49C20453ED1000FC8E1 /* AppDelegate.m in Sources */,
+				C43B4084204FB383006B1A14 /* Calculations.m in Sources */,
+				C4C899D2204D408700099BE3 /* MKGCD.m in Sources */,
 				C43C35542047A28100A4D3DC /* OperationAdd.m in Sources */,
+				C415F5E22057DE0F008FD16A /* BlockTest.m in Sources */,
 				C410346C2048F5C000B9CD8B /* WetherView.m in Sources */,
+				C415F5DE2057BB37008FD16A /* Reachability.m in Sources */,
 				C41034662048F57D00B9CD8B /* Wether.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

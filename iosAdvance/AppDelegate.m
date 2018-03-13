@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "NetWorkListener.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [[NetWorkListener manager] addNetWorkListener];
+    
     return YES;
 }
 
