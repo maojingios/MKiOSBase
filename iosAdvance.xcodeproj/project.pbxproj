@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2ABC4E2063F63A00ED4E43 /* MKinPthread.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2ABC4C2063F63A00ED4E43 /* MKinPthread.m */; };
 		C41034632048F1FC00B9CD8B /* WetherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41034622048F1FB00B9CD8B /* WetherViewController.m */; };
 		C41034662048F57D00B9CD8B /* Wether.m in Sources */ = {isa = PBXBuildFile; fileRef = C41034652048F57D00B9CD8B /* Wether.m */; };
 		C41034692048F5A100B9CD8B /* WetherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C41034682048F5A100B9CD8B /* WetherViewModel.m */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB2ABC4C2063F63A00ED4E43 /* MKinPthread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKinPthread.m; sourceTree = "<group>"; };
+		AB2ABC4D2063F63A00ED4E43 /* MKinPthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKinPthread.h; sourceTree = "<group>"; };
 		C41034612048F1FB00B9CD8B /* WetherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WetherViewController.h; sourceTree = "<group>"; };
 		C41034622048F1FB00B9CD8B /* WetherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetherViewController.m; sourceTree = "<group>"; };
 		C41034642048F57D00B9CD8B /* Wether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wether.h; sourceTree = "<group>"; };
@@ -88,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2ABC4B2063F5ED00ED4E43 /* PThread */ = {
+			isa = PBXGroup;
+			children = (
+				AB2ABC4D2063F63A00ED4E43 /* MKinPthread.h */,
+				AB2ABC4C2063F63A00ED4E43 /* MKinPthread.m */,
+			);
+			path = PThread;
+			sourceTree = "<group>";
+		};
 		C41034602048F19800B9CD8B /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +175,7 @@
 				C431D49B20453ED1000FC8E1 /* AppDelegate.m */,
 				C431D49D20453ED1000FC8E1 /* ViewController.h */,
 				C431D49E20453ED1000FC8E1 /* ViewController.m */,
+				AB2ABC4B2063F5ED00ED4E43 /* PThread */,
 				C415F5DF2057DDEC008FD16A /* Block */,
 				C415F5D82057BAA7008FD16A /* Reachability */,
 				C4C899D3204D409E00099BE3 /* NSOperation */,
@@ -311,6 +324,7 @@
 				C43B4084204FB383006B1A14 /* Calculations.m in Sources */,
 				C4C899D2204D408700099BE3 /* MKGCD.m in Sources */,
 				C43C35542047A28100A4D3DC /* OperationAdd.m in Sources */,
+				AB2ABC4E2063F63A00ED4E43 /* MKinPthread.m in Sources */,
 				C415F5E22057DE0F008FD16A /* BlockTest.m in Sources */,
 				C410346C2048F5C000B9CD8B /* WetherView.m in Sources */,
 				C415F5DE2057BB37008FD16A /* Reachability.m in Sources */,
